@@ -1,6 +1,9 @@
 
 *{padding:0; margin:0; box-sizing:border-box;}
 
+body{
+background-color: crimson;
+}
 
 .container{
     width: 320px;
@@ -8,7 +11,8 @@
     background-color: cornflowerblue;
     margin: auto;
     border: 1px solid black;
-    margin-top: 25px;
+    margin-top: 5rem;
+    box-shadow: 2px 2px 4px black;
 }
 
 .dados{
@@ -20,7 +24,7 @@
 }
 
 .dados > p{
-    margin-top: 8px;
+    margin-top: 0.7rem;
 }
 
 input{
@@ -43,7 +47,13 @@ button{
     background-color: black;
     color:white;
     border-radius: 4px;
-    box-shadow:  2px 2px 2px white;
+    transition: 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    background-color: white;
+    color:black
 }
 
 #Div-Resultado{
