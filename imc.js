@@ -35,7 +35,7 @@ if(nome != "" && altura != "" && peso != ""){
     valorIndicado = "Obesidade Grave";
     }
 
-    resultado.textContent = "Seu IMC "+nome+" é "+valorIMC +" . Seu IMC indica "+valorIndicado;
+    resultado.textContent = "Seu IMC "+nome+" é "+valorIMC +" . Seu IMC: "+valorIndicado;
 }
 else{
    alert("Campos incompletos");
