@@ -3,6 +3,9 @@
 
 body{
 background-color: crimson;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 
 .container{
@@ -66,4 +69,15 @@ button:hover{
     color:white;
     font-size: 22px;
     text-align: center;
+}
+
+.box-img{
+    width: 600px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.box-img > img{
+    width: 500px;
+    height: 400px;
 }
