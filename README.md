@@ -4,4 +4,13 @@
 
 <p style="text-align:center">Projeto desenvolvido para calcular o percentual corporal</p>
 <img src="img/projeto1.png" />
+
+### Tecnologias Usadas
+
+- ✔ Css
+- ✔ Html
+- ✔ Javascript
+
+
+
  
